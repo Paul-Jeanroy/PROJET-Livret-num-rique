@@ -5,7 +5,7 @@
 */
 
 // Import css
-import "@/app/Css/Header-E-MA/Header.css"
+import "@/app/Css/Header-E-MA/header.css"
 import Link from "next/link"
 
 
@@ -13,7 +13,7 @@ export default function Header_E_MA() {
     return (
         <header>
             <div className="div_container_header">
-                <h1 className="div_titre_site">Livret d'Apprentissage Numérique</h1>
+                <h1 className="h1_titre_site">Livret d'Apprentissage Numérique</h1>
                 <div className="div_nav_header">
                     <nav className="nav_header">
                         <div className="div_nav_acceuil">
